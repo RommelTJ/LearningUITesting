@@ -34,7 +34,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="euc-Bo-7MV" kind="show" id="NN1-LW-m5K"/>
+                                    <segue destination="euc-Bo-7MV" kind="show" id="3RJ-r3-OGO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -56,7 +56,7 @@
             </objects>
             <point key="canvasLocation" x="456.80000000000001" y="118.29085457271366"/>
         </scene>
-        <!--Detail View Controller-->
+        <!--Detail-->
         <scene sceneID="GRO-El-XdV">
             <objects>
                 <viewController id="euc-Bo-7MV" customClass="DetailViewController" customModule="LearningUITesting" customModuleProvider="target" sceneMemberID="viewController">
@@ -94,13 +94,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Tbi-eg-YbM"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Detail" id="9UJ-DP-pgI"/>
                     <connections>
                         <outlet property="valueLabel" destination="EbG-ak-SjK" id="FxB-oX-0qK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rrj-hO-h2V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1279" y="117"/>
+            <point key="canvasLocation" x="1281" y="118"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Umx-qN-X2z">
