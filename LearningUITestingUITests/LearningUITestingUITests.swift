@@ -18,7 +18,7 @@ class LearningUITestingUITests: XCTestCase {
     
     func testTapViewDetailWhenSwitchIsOffDoesNothing() {
         let app = XCUIApplication()
-        app.switches["1"].tap()
+        app.switches["View Detail Enabled Switch"].tap()
         app.buttons["View Detail"].tap()
         XCTAssertEqual(app.navigationBars.element.identifier, "Menu")
     }
