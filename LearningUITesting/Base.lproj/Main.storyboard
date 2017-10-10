@@ -19,6 +19,7 @@
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IJU-FV-9XY">
                                 <rect key="frame" x="163" y="74" width="51" height="31"/>
+                                <accessibility key="accessibilityConfiguration" label="View Detail Enabled Switch"/>
                                 <connections>
                                     <action selector="switchValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="hrl-kF-KYv"/>
                                 </connections>
@@ -80,6 +81,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EbG-ak-SjK">
                                 <rect key="frame" x="176.5" y="312" width="22.5" height="43"/>
+                                <accessibility key="accessibilityConfiguration" label="Number Value Label"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
