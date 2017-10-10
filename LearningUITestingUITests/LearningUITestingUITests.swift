@@ -23,4 +23,10 @@ class LearningUITestingUITests: XCTestCase {
         XCTAssertEqual(app.navigationBars.element.identifier, "Menu")
     }
     
+    func testTapViewDetailWhenSwitchIsOnNavigatesToDetailViewController() {
+        let app = XCUIApplication()
+        app.buttons["View Detail"].tap()
+        XCTAssertEqual(app.navigationBars.element.identifier, "Detail")
+    }
+    
 }
